@@ -18,7 +18,7 @@
 
 body
 {
-    background-color: lightslategray;
+    background-color: black;
     color: var(--white);
 }
 
@@ -37,6 +37,7 @@ header
     z-index: 999;
     padding-bottom: 5px;
     padding-top: 10px;
+    background: rgb(0,0,0,0.2)
 }
 
 .brand
@@ -110,9 +111,10 @@ li.active a
 
 nav ul li img
 {
-    width: 25px;
-    height: 25px;
-    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    border-bottom: 2px solid red;
 }
 
 .menu
@@ -168,6 +170,7 @@ nav ul li img
 .populer img 
 {
     border-radius: 10px;
+    border-bottom: 4px solid red;
 }
 
 .link a
@@ -287,6 +290,7 @@ nav ul li img
 .streaming img 
 {
     border-radius: 10px;
+    border-bottom: 4px solid red;
 }
 
 .title-v
@@ -310,6 +314,7 @@ nav ul li img
 .voucher img
 {
     border-radius: 10px;
+    border-bottom: 4px solid red;
 }
 
 .tentang
